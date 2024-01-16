@@ -1,0 +1,30 @@
+{
+  "name": "trendzipper",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dompurify": "^3.0.8",
+    "firebase": "^10.7.1",
+    "install": "^0.13.0",
+    "mongoose": "^8.0.0",
+    "next": "14.0.4",
+    "next-auth": "^5.0.0-beta.3",
+    "npm": "^10.2.5",
+    "quill": "^1.3.7",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.49.3",
+    "react-quill": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4"
+  }
+}

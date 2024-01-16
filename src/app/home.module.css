@@ -1,0 +1,105 @@
+.container {
+  display: flex;
+  gap: 100px;
+}
+
+.textContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.latestPostContainer {
+  margin-top: 3rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  font-size: 96px;
+}
+
+.subTitle{
+  font-size: 36px;
+}
+
+.desc{
+  font-size: 20px;
+}
+
+.buttons{
+  display: flex;
+  gap: 20px;
+}
+
+.button{
+  padding: 20px;
+  min-width: 120px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.button:first-child{
+  background-color: var(--btn);
+  color: var(--text);
+}
+
+.brands{
+  width: 500px;
+  height: 50px;
+  position: relative;
+  filter: grayscale(1);
+}
+
+.imgContainer {
+  flex: 1;
+  position: relative;
+}
+
+.postRow {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.postRow::-webkit-scrollbar {
+  width: 5px; /* width of the scrollbar */
+  height: 6px;
+}
+
+.postRow::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* color of the track */
+}
+
+.postRow::-webkit-scrollbar-thumb {
+  background-color: #888; /* color of the thumb */
+  border-radius: 6px; /* roundness of the thumb */
+}
+
+.postRow::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* color of the thumb on hover */
+}
+
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .buttons{
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 64px;
+  }
+
+  .brands{
+    width: 100%;
+  }
+}
+
